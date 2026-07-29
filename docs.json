@@ -9,44 +9,91 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "pages": [
+    "languages": [
       {
-        "group": "Welcome",
+        "language": "en",
         "pages": [
-          "introduction",
-          "how-it-works",
-          "service-area"
+          {
+            "group": "Welcome",
+            "pages": [
+              "introduction",
+              "how-it-works",
+              "service-area"
+            ]
+          },
+          {
+            "group": "Services",
+            "pages": [
+              "services/overview",
+              "services/express-detail",
+              "services/interior-essential",
+              "services/complete-detail",
+              "services/ceramic-spray-protection",
+              "services/pet-hair-removal",
+              "services/engine-bay-cleaning"
+            ]
+          },
+          {
+            "group": "Booking",
+            "pages": [
+              "booking/get-a-quote",
+              "booking/what-to-expect",
+              "booking/faq"
+            ]
+          },
+          {
+            "group": "Why R15",
+            "pages": [
+              "why-r15/our-approach",
+              "why-r15/products-we-use",
+              "why-r15/testimonials"
+            ]
+          },
+          "untitled-page"
         ]
       },
       {
-        "group": "Services",
+        "language": "es",
         "pages": [
-          "services/overview",
-          "services/express-detail",
-          "services/interior-essential",
-          "services/complete-detail",
-          "services/ceramic-spray-protection",
-          "services/pet-hair-removal",
-          "services/engine-bay-cleaning"
+          {
+            "group": "Bienvenida",
+            "pages": [
+              "es/introduction",
+              "es/how-it-works",
+              "es/service-area"
+            ]
+          },
+          {
+            "group": "Servicios",
+            "pages": [
+              "es/services/overview",
+              "es/services/express-detail",
+              "es/services/interior-essential",
+              "es/services/complete-detail",
+              "es/services/ceramic-spray-protection",
+              "es/services/pet-hair-removal",
+              "es/services/engine-bay-cleaning"
+            ]
+          },
+          {
+            "group": "Reservas",
+            "pages": [
+              "es/booking/get-a-quote",
+              "es/booking/what-to-expect",
+              "es/booking/faq"
+            ]
+          },
+          {
+            "group": "Por qué R15",
+            "pages": [
+              "es/why-r15/our-approach",
+              "es/why-r15/products-we-use",
+              "es/why-r15/testimonials"
+            ]
+          },
+          "es/untitled-page"
         ]
-      },
-      {
-        "group": "Booking",
-        "pages": [
-          "booking/get-a-quote",
-          "booking/what-to-expect",
-          "booking/faq"
-        ]
-      },
-      {
-        "group": "Why R15",
-        "pages": [
-          "why-r15/our-approach",
-          "why-r15/products-we-use",
-          "why-r15/testimonials"
-        ]
-      },
-      "untitled-page"
+      }
     ]
   },
   "navbar": {
