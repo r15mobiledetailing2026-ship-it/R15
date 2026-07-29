@@ -1,13 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "general",
+  "projectName": "R15 Mobile Detailing",
+  "projectDescription": "Premium mobile car detailing service based in Sodus, NY, bringing showroom-quality results directly to your driveway.",
   "theme": "almond",
-  "name": "R15 Mobile Detailing",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "groups": [
       {
@@ -48,20 +46,17 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Call Us: 518-888-6109",
-        "href": "tel:5188886109"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get a Free Quote",
-      "href": "/booking/get-a-quote"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Mobile convenience — we come to you",
+    "Premium professional-grade detailing products",
+    "Fully insured service",
+    "Satisfaction guaranteed",
+    "Express Detail package for quick refreshes",
+    "Interior Essential for deep interior cleaning",
+    "Complete Detail for full interior + exterior treatment",
+    "Ceramic Spray Protection for long-lasting paint protection",
+    "Specialized pet hair removal",
+    "Engine bay cleaning"
+  ],
+  "publicApiSurface": []
 }
